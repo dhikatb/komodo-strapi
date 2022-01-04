@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_asset_portfolios",
+  "info": {
+    "displayName": "portfolio",
+    "icon": "wallet",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "quantity": {
+      "type": "float"
+    },
+    "coin": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::coin.coin"
+    }
+  }
+}
